@@ -1,82 +1,185 @@
 /* ====================
-       Global Styles
+    Global Styles
    ==================== */
 
 * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0 auto;
-    max-width: 1024px;
-  }
-  
+box-sizing: border-box;
+}
 
-  /* ====================
-        Nav Styles
-   ==================== */
-   ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  a {
-    text-decoration: none;
-  }
-  nav {
-    font-family: "Roboto", Arial, Verdana;
-    font-weight: 400;
-    letter-spacing: .05em;
-    background-color: #829356;
-    padding: 25px;
-  }
-  h1, .top-nav {
-    text-align: center;
-  }
-  
-  .top-nav, .top-nav li {
-    width: 100%;
-  }
-  
-  h1 a, .top-nav a {
-    color: #000;
-  }
-  .top-nav {
-    margin-top: 30px;
-  }
-  
-  .top-nav li {
-    padding: 10px 0;
-    margin: 5px auto;
-    background-color: #fff;
-  }
-  
-  .top-nav a {
-    text-transform: uppercase;
-  }
+body {
+margin: 0 auto;
+max-width: 1024px;
+}
+
 
 /* ====================
-       Media Queries
+    Nav Styles
    ==================== */
-   @media (min-width: 768px) {
-    .top-nav {
-      margin-top: 0;
-    }
+ul {
+list-style: none;
+padding-left: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+nav {
+font-family: "Roboto", Arial, Verdana;
+font-weight: 400;
+letter-spacing: .05em;
+background-color: #f6f6f6;
+padding: 25px;
+}
+
+h1, .top-nav {
+text-align: center;
+}
+
+.top-nav, .top-nav li {
+width: 100%;
+}
+
+h1 a, .top-nav a {
+color: #000;
+}
+
+.top-nav {
+margin-top: 30px;
+}
+
+.top-nav li {
+padding: 10px 0;
+margin: 5px auto;
+background-color: #fff;
+}
+
+.top-nav a {
+text-transform: uppercase;
+}
+
+
+/* ====================
+    Portfolio Styles
+   ==================== */
+   .container {
+    max-width: 1100px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  .col {
+    margin: 10px;
+    min-height: 250px;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 5px;
+  }
+  .box-1 {
+    background-color: #093145;
+  }
   
-    .top-nav li {
-      display: inline-block;
-      width: auto;
-      margin-right: 15px;
-      background-color: transparent;
-    }
+  .box-2 {
+    background-color: #3C6478;
+  }
   
-    .top-nav li:last-child {
-      margin-right: 0;
-    }
+  .box-3 {
+    background-color: #107896;
+  }
   
-    .top-nav a {
-      color: #fff;
-    }
+  .box-4 {
+    background-color: #829356;
+  }
+  
+  .box-5 {
+    background-color: #C2571A;
+  }
+  
+  .box-6 {
+    background-color: #9A2617;
+  }
+ 
+  .box-7 {
+    background-color: lightgreen;
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* ====================
+   Media Queries 768px
+   ==================== */
+@media (min-width: 768px) {
+   
+   /* Nav styles */ 
+    .top-nav {
+        margin-top: 0;
+    }
+
+    .top-nav li {
+        display: inline-block;
+        width: auto;
+        margin-right: 15px;
+        background-color: transparent;
+    }
+
+    .top-nav li:last-child {
+        margin-right: 0;
+    }
+
+    .top-nav a {
+        color: #fff;
+    }
+
+    /* Portfolio Styles */
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .col {
+        flex-basis: calc(50% - 20px);
+      }
+
+
+}
+
+
+
+
+
+
+
+
+/* ====================
+   Media Queries 1024px
+   ==================== */
+@media (min-width: 1024px) {
+    
+    /* Nav Styles */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top-nav, 
+    .top-nav li {
+        width: initial;
+        margin-bottom: 0;
+    }
+
+    /* Portfolio Styles */
+
+}
 
 
