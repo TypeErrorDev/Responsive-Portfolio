@@ -1,6 +1,6 @@
 Meets Expectations:
-    ☐ Project contains a stylesheet inside of a CSS folder. @started(22-02-13 21:32)
-    ☐ The HTML file includes the viewport meta tag in the head of the document. @started(22-02-13 21:32)
+    ✔ Project contains a stylesheet inside of a CSS folder. @started(22-02-13 21:32) @done(22-02-13 22:47) @lasted(1h15m42s)
+    ✔ The HTML file includes the viewport meta tag in the head of the document. @started(22-02-13 21:32) @done(22-02-13 22:47) @lasted(1h15m45s)
     ☐ A mobile-first approach is utilized using min-width properties for media queries. @started(22-02-13 21:32)
     ☐ Media queries are in place to match the screen sizes for: @started(22-02-13 21:32)
         ☐ tablets at 768px @started(22-02-13 21:32)
@@ -10,9 +10,9 @@ Meets Expectations:
         ☐ Mobile @started(22-02-13 21:32)
         ☐ Tablet @started(22-02-13 21:32)
         ☐ Desktop @started(22-02-13 21:32)
-    ☐ A Google Font is being used for the text. @started(22-02-13 21:32)
-    ☐ The navigation menu items have working links to the different sections that use ID’s to link to relevant anchor tags. @started(22-02-13 21:32)
-    ☐ HTML and CSS code passes validation and/or only includes errors that are on the list of exceptions. @started(22-02-13 21:32)
+    ✔ A Google Font is being used for the text. @started(22-02-13 21:32) @done(22-02-13 22:47) @lasted(1h15m55s)
+    ✔ The navigation menu items have working links to the different sections that use ID’s to link to relevant anchor tags. @started(22-02-13 21:32) @done(22-02-13 22:47) @lasted(1h16m)
+    ✔ HTML and CSS code passes validation and/or only includes errors that are on the list of exceptions. @started(22-02-13 21:32) @done(22-02-13 22:48) @lasted(1h16m3s)
 
 Exceeds Expectations:
     ☐ At least TWO of the following additional styling enhancements have been added to the portfolio: @started(22-02-13 21:32)
@@ -20,5 +20,5 @@ Exceeds Expectations:
         ☐ The color of at least one piece of text has been changed. @started(22-02-13 21:32)
         ☐ One additional google font has been added, and is being used on the page. @started(22-02-13 21:32)
         ☐ Any additional styling for links has been added. @started(22-02-13 21:32)
-    ☐ The <nav> tag is being used for the navigation bar. @started(22-02-13 21:32)
-    ☐ Additional section has been added to the page, such as a skills section, and a working link to the new section has been added to the navigation bar using an ID to link to anchor tag. @started(22-02-13 21:32)
+    ✔ The <nav> tag is being used for the navigation bar. @started(22-02-13 21:32) @done(22-02-13 22:48) @lasted(1h16m43s)
+    ✔ Additional section has been added to the page, such as a skills section, and a working link to the new section has been added to the navigation bar using an ID to link to anchor tag. @started(22-02-13 21:32) @done(22-02-13 22:49) @lasted(1h17m14s)
