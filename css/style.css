@@ -79,46 +79,7 @@ text-transform: uppercase;
     letter-spacing: 1px;
     padding-top: 5px;
   }
-  .box-1 {
-    /* background-color: #093145; */
-  }
   
-  .box-2 {
-    /* background-color: #3C6478; */
-  }
-  
-  .box-3 {
-    /* background-color: #107896; */
-  }
-  
-  .box-4 {
-    /* background-color: #829356; */
-  }
-  
-  .box-5 {
-    /* background-color: #C2571A; */
-  }
-  
-  .box-6 {
-    /* background-color: #9A2617; */
-  }
-  .box-6 {
-    /* background-color: tan; */
-  }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ====================
    Media Queries 768px
@@ -149,19 +110,21 @@ text-transform: uppercase;
     .container {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
       }
       .col {
         flex-basis: calc(50% - 20px);
       }
 
+      /* Footer Styles */
+      .footer-container{
+          display: flex;
+          flex-direction: row;
+      }
+
+
 
 }
-
-
-
-
-
-
 
 
 /* ====================
