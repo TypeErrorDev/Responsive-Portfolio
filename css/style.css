@@ -22,6 +22,13 @@ body {
 img {
   max-width: 100%;
 }
+h4 {
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
 
 /* ====================
    2. Nav Styles
@@ -29,11 +36,6 @@ img {
 ul {
   list-style: none;
   padding-left: 0;
-}
-
-a {
-  text-decoration: none;
-  text-transform: capitalize;
 }
 
 nav {
@@ -58,10 +60,6 @@ h4 {
   font-family: "Allerta Stencil", sans-serif;
 }
 
-h4 {
-  text-transform: uppercase;
-}
-
 .top-nav,
 .top-nav li {
   width: 100%;
@@ -81,9 +79,26 @@ h1 a,
   margin: 5px auto;
   background-color: #fff;
 }
+.top-nav li a {
+  display: inline-block;
+}
 
 .top-nav a {
   text-transform: uppercase;
+}
+/* Link hover effect */
+.top-nav li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: grey;
+  transition: width 0.3s;
+}
+
+.top-nav li:hover::after {
+  width: 100%;
+  transition: width 0.3s;
 }
 
 /* ====================
@@ -124,9 +139,15 @@ h1 a,
   font-size: x-large;
   font-weight: 100;
 }
-
-p {
+.contact .contact-phone,
+.contact .contact-email {
+  font-size: 25px;
+  font-weight: 300;
 }
+.contact-phone {
+  margin: 10px 0;
+}
+
 /* Footer Styles */
 
 .footer-container {
