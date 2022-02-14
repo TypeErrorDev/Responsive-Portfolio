@@ -228,6 +228,7 @@ footer h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    width: auto;
   }
 
   .box-1 {
@@ -252,6 +253,7 @@ footer h2 {
   .footer-nav {
     display: flex;
     flex-direction: row;
+    width: 100vw;
   }
 }
 
