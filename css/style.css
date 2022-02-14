@@ -1,9 +1,17 @@
+/* Table of Contents
+    1. Global Styles
+    2. Nav Styles
+    3. Portfolio Styles
+    4. Contact/Footer Style
+*/
+
 /* ====================
     1. Global Styles
    ==================== */
 
 * {
   box-sizing: border-box;
+  /* outline: 2px solid red; */
 }
 
 body {
@@ -43,6 +51,13 @@ h4,
 .top-nav {
   text-align: center;
 }
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Allerta Stencil", sans-serif;
+}
+
 h4 {
   text-transform: uppercase;
 }
@@ -80,7 +95,7 @@ h1 a,
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
-.col {
+.card {
   margin: 10px;
   min-height: 250px;
   color: black;
@@ -90,7 +105,43 @@ h1 a,
 }
 
 /* ====================
-   4. Media Queries 768px
+    4. Contact/Footer
+   ==================== */
+
+/* Contact Styles */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.contact h3 {
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+.contact-p {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+p {
+}
+/* Footer Styles */
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+}
+.footer-nav a {
+  color: #000;
+}
+
+/* ====================
+   Media Queries 768px
    ==================== */
 @media (min-width: 768px) {
   /* Nav styles */
@@ -119,7 +170,7 @@ h1 a,
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .col {
+  .card {
     flex-basis: calc(50% - 20px);
   }
 
@@ -132,7 +183,7 @@ h1 a,
 }
 
 /* ====================
-   5. Media Queries 1024px
+   Media Queries 1024px
    ==================== */
 
 @media (min-width: 1024px) {
