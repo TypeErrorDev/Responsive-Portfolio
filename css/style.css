@@ -228,14 +228,15 @@ footer h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: auto;
+    outline: 2px solid red;
   }
 
   .box-1 {
     outline: 2px solid red;
   }
   .card {
-    flex-basis: calc(50% - 20px);
+    /* flex-basis: calc(50% - 20px); */
+    outline: 2px solid blue;
   }
 
   /* Skills Styles */
@@ -249,11 +250,19 @@ footer h2 {
   }
 
   /* Footer Styles */
+  .footer-name {
+    outline: 2px solid red;
+    padding: 0;
+    margin: 0;
+    width: 170px;
+  }
   .footer-container,
   .footer-nav {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
   }
 }
 
