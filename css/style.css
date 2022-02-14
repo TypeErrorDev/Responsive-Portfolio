@@ -170,6 +170,7 @@ h1 a,
 .footer-nav a {
   color: #000;
   text-transform: uppercase;
+  font-size: small;
 }
 footer {
   padding: 10px;
@@ -182,6 +183,9 @@ footer nav {
 footer h2 {
   text-align: left;
   font-size: 20px;
+}
+footer h2 a {
+  color: #000;
 }
 
 /* ====================
@@ -213,10 +217,7 @@ footer h2 {
     margin-right: 15px;
     background-color: transparent;
     font-size: small;
-  }
-
-  .top-nav li:last-child {
-    margin-right: 0;
+    margin-bottom: 0;
   }
 
   .top-nav a {
@@ -227,16 +228,20 @@ footer h2 {
   .container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    outline: 2px solid red;
-  }
-
-  .box-1 {
-    outline: 2px solid red;
+    flex-direction: column;
   }
   .card {
-    /* flex-basis: calc(50% - 20px); */
-    outline: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box-1 {
+    /* outline: 2px solid red; */
+    flex-direction: row-reverse;
+    align-self: center;
+    margin: -10px;
+    padding: 0;
+    background-color: #f6f6f6;
   }
 
   /* Skills Styles */
@@ -254,7 +259,7 @@ footer h2 {
     outline: 2px solid red;
     padding: 0;
     margin: 0;
-    width: 180px;
+    width: 20em;
   }
   .footer-container,
   .footer-nav {
@@ -263,6 +268,21 @@ footer h2 {
     justify-content: flex-end;
     align-items: center;
     width: 100%;
+  }
+  .top {
+    display: none;
+  }
+  .footer-nomobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .bottom-nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
   }
 }
 
