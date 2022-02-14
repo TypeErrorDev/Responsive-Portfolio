@@ -169,6 +169,19 @@ h1 a,
 }
 .footer-nav a {
   color: #000;
+  text-transform: uppercase;
+}
+footer {
+  padding: 10px;
+}
+
+footer nav {
+  padding: initial;
+}
+
+footer h2 {
+  text-align: left;
+  font-size: 20px;
 }
 
 /* ====================
@@ -179,11 +192,19 @@ h1 a,
   .nav-container {
     margin-top: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .nav-container h1 {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    align-self: center;
   }
 
   .top-nav {
-    align-self: flex-end;
+    align-self: center;
+    width: 80%;
+    justify-content: space-evenly;
   }
 
   .top-nav li {
@@ -191,6 +212,7 @@ h1 a,
     width: auto;
     margin-right: 15px;
     background-color: transparent;
+    font-size: small;
   }
 
   .top-nav li:last-child {
@@ -207,8 +229,22 @@ h1 a,
     flex-wrap: wrap;
     flex-direction: row;
   }
+
+  .box-1 {
+    outline: 2px solid red;
+  }
   .card {
     flex-basis: calc(50% - 20px);
+  }
+
+  /* Skills Styles */
+  .skills {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    outline: 2px solid red;
   }
 
   /* Footer Styles */
