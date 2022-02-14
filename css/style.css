@@ -249,7 +249,8 @@ footer h2 a {
   }
   .box-1 p {
     margin-right: 100px;
-    flex-wrap: nowrap;
+    width: 30%;
+    text-align: start;
   }
   .box-1 img {
     width: 300px;
@@ -264,7 +265,7 @@ footer h2 a {
     display: flex;
     justify-content: center;
     align-self: center;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
   }
 
   /* Footer Styles */
