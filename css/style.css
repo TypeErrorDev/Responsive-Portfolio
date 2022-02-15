@@ -191,6 +191,9 @@ footer h2 {
 footer h2 a {
   color: #000;
 }
+#hide {
+  display: none;
+}
 
 /* ====================
    Media Queries 768px
@@ -232,19 +235,26 @@ footer h2 a {
   .container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    outline: 2px solid red;
   }
+
   .card {
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    outline: 2px solid red;
   }
   .box-1 {
     flex-direction: row-reverse;
+    justify-content: center;
     align-self: center;
     flex-wrap: nowrap;
-    margin: -10px;
+    margin: -10px 0 -8px 10px;
+
     padding: 0;
+    max-width: 984px;
     background-color: #f6f6f6;
   }
   .box-1 p {
@@ -261,16 +271,21 @@ footer h2 a {
   /* Skills Styles */
   .skills {
     padding: 0;
-    margin: 0;
+    margin-left: 40px;
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     /* outline: 2px solid red; */
   }
 
+  #html,
+  #css,
+  #javascript {
+    box-shadow: 2px 2px 2px rgb(40, 179, 24);
+  }
   /* Footer Styles */
   .footer-name {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     padding: 0;
     margin: 0;
     width: 20em;
@@ -297,6 +312,11 @@ footer h2 a {
     display: flex;
     flex-direction: row;
     text-align: center;
+  }
+  #hide {
+    display: flex;
+    padding-right: 20px;
+    color: #000;
   }
 }
 
