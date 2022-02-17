@@ -239,14 +239,15 @@ footer h2 a {
     flex-direction: row;
   }
   h4 {
-    float: center;
+    width: 100vw;
+    align-items: center;
   }
   .main1 {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-self: center;
   }
   .main2 {
     width: 50%;
