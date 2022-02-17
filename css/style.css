@@ -322,10 +322,12 @@ footer h2 a {
     justify-content: space-between;
     width: 100%;
   }
+
   .bottom-nav {
     display: flex;
     flex-direction: row;
     text-align: center;
+    color: #000;
   }
   #hide {
     display: flex;
