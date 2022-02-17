@@ -239,7 +239,7 @@ footer h2 a {
     flex-direction: row;
   }
   h4 {
-    width: 100vw;
+    width: 97vw;
     align-items: center;
   }
   .main1 {
@@ -255,7 +255,6 @@ footer h2 a {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    margin-top: 62px;
   }
 
   .card {
@@ -369,4 +368,13 @@ footer h2 a {
   }
 
   /* Portfolio Styles */
+
+  .main1 {
+    outline: 2px solid red;
+    padding: 0;
+    align-content: center;
+  }
+  .main2 {
+    outline: 2px solid blue;
+  }
 }
