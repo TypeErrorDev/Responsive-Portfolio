@@ -199,7 +199,7 @@ footer h2 a {
 /* ====================
    Media Queries 768px
    ==================== */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   /* Nav styles */
   .nav-container {
     margin-top: 0;
@@ -242,16 +242,17 @@ footer h2 a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: nowrap;
   }
 
   .card {
     max-width: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 20;
     flex: 1;
+    flex-wrap: nowrap;
     /* box-shadow: 1px 4px 10px rgb(27, 28, 27); */
   }
   .box-1 {
@@ -313,6 +314,7 @@ footer h2 a {
   .top {
     display: none;
   }
+
   .footer-nomobile {
     display: flex;
     justify-content: center;
@@ -336,7 +338,7 @@ footer h2 a {
    Media Queries 1024px
    ==================== */
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /* Nav Styles */
   .nav-container {
     margin: 0;
