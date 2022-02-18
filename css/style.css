@@ -192,7 +192,7 @@ footer h2 {
 footer h2 a {
   color: #000;
 }
-#hide {
+.hide {
   display: none;
 }
 
@@ -261,7 +261,6 @@ footer h2 a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 20;
     flex-wrap: nowrap;
   }
   .box-1 {
@@ -333,7 +332,7 @@ footer h2 a {
     font-family: "Mitr", Arial, Verdana;
     color: #000;
   }
-  #hide {
+  .hide {
     display: flex;
     padding-right: 20px;
     color: #000;
@@ -345,6 +344,8 @@ footer h2 a {
    ==================== */
 
 @media screen and (min-width: 1024px) {
+  /* Global Styles */
+
   /* Nav Styles */
   .nav-container {
     margin: 0;
@@ -357,10 +358,21 @@ footer h2 a {
   .contact-p {
     color: steelblue;
   }
+
   .top-nav,
   .top-nav li {
     width: initial;
     margin-bottom: 0;
+  }
+  .top-nav li {
+    outline: 2px solid black;
+    width: 90px;
+    background: #ededed;
+  }
+  .top-nav li:hover {
+    transform: translate(2px, 4px);
+    border-radius: 50px;
+    background: linear-gradient(#2396bf, #0d5b77 40%, #004961 3%, #004961);
   }
 
   /* Portfolio Styles */
@@ -380,7 +392,6 @@ footer h2 a {
     justify-content: center;
     align-self: center;
     width: 80em;
-    filter: brightness();
   }
   .box-2 img:hover,
   .box-3 img:hover,
@@ -388,7 +399,7 @@ footer h2 a {
   .box-5 img:hover,
   .box-6 img:hover,
   .box-7 img:hover {
-    filter: invert(70);
+    filter: invert(90);
   }
   .box-6 {
     margin-top: 25px;
@@ -401,12 +412,29 @@ footer h2 a {
     height: 50px;
     box-shadow: 4px 5px 2px rgb(58, 50, 50);
     border-radius: 15px 20px 2px 15px;
-    text-shadow: #000;
+    /* text-shadow: rgb(2, 2, 2); */
 
     background-color: rgb(40, 62, 92);
     color: #ffffff;
     text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93,
-      -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93,
-      -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5;
+      -2px 1px #cdd2d5, -2px 3px #808d93;
+  }
+
+  /* Footer Styles */
+  .hide {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .footer-nomobile li {
+    outline: 2px solid black;
+    width: 90px;
+    background: #ededed;
+    margin-right: 5px;
+  }
+  .footer-nomobile li:hover {
+    transform: translate(2px, 4px);
+    border-radius: 50px;
+    background: linear-gradient(#2396bf, #0d5b77 40%, #004961 3%, #004961);
   }
 }
