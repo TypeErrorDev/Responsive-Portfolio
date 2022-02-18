@@ -352,6 +352,8 @@ footer h2 a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgba(245, 245, 220, 0.319);
+    /* outline: 2px solid red; */
   }
   .contact-p {
     color: steelblue;
