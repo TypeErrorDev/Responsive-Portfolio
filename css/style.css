@@ -47,18 +47,16 @@ nav {
 h1,
 h2,
 h3,
-h4,
 .top-nav {
   text-align: center;
 }
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: "Allerta Stencil", sans-serif;
 }
 
-h4 {
+h2 {
   text-transform: uppercase;
 }
 
@@ -121,7 +119,8 @@ h1 a,
   align-self: center;
   border-radius: 10px 0;
   color: #000;
-  box-shadow: 2px 2px 2px rgb(100, 100, 149);
+  box-shadow: 2px 2px 2px #107093;
+  background: linear-gradient(#2396bf, #0d5b77 40%, #004961 3%, #004961);
 }
 .skills {
   display: flex;
@@ -293,7 +292,8 @@ footer h2 a {
   #html,
   #css,
   #javascript {
-    box-shadow: 2px 2px 2px rgb(40, 179, 24);
+    box-shadow: 2px 2px 2px #107093;
+    background: linear-gradient(#2396bf, #0d5b77 40%, #004961 3%, #004961);
   }
 
   .contact-p {
@@ -368,6 +368,7 @@ footer h2 a {
     outline: 2px solid black;
     width: 90px;
     background: #ededed;
+    border-radius: 50px;
   }
   .top-nav li:hover {
     transform: translate(2px, 4px);
@@ -414,7 +415,7 @@ footer h2 a {
     border-radius: 15px 20px 2px 15px;
     /* text-shadow: rgb(2, 2, 2); */
 
-    background-color: rgb(40, 62, 92);
+    background: linear-gradient(#2396bf, #0d5b77 40%, #004961 3%, #004961);
     color: #ffffff;
     text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93,
       -2px 1px #cdd2d5, -2px 3px #808d93;
@@ -429,6 +430,7 @@ footer h2 a {
   .footer-nomobile li {
     outline: 2px solid black;
     width: 90px;
+    border-radius: 50px;
     background: #ededed;
     margin-right: 5px;
   }
