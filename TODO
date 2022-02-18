@@ -15,10 +15,10 @@ Meets Expectations:
     ✔ HTML and CSS code passes validation and/or only includes errors that are on the list of exceptions. @started(22-02-13 21:32) @done(22-02-13 22:48) @lasted(1h16m3s)
 
 Exceeds Expectations:
-    ☐ At least TWO of the following additional styling enhancements have been added to the portfolio: @started(22-02-13 21:32)
+    ✔ At least TWO of the following additional styling enhancements have been added to the portfolio: @started(22-02-13 21:32) @done(22-02-18 19:01) @lasted(4d21h29m17s)
         ✔ A new background color or image for the navigation and/or main sections of the site. @started(22-02-13 21:32) @done(22-02-18 18:48) @lasted(4d21h16m23s)
         ✔ The color of at least one piece of text has been changed. @started(22-02-13 21:32) @done(22-02-18 17:53) @lasted(4d20h21m59s)
         ✔ One additional google font has been added, and is being used on the page. @started(22-02-13 21:32) @done(22-02-18 17:54) @lasted(4d20h22m3s)
-        ☐ Any additional styling for links has been added. @started(22-02-13 21:32)
+        ☐ Any additional styling for links has been added.
     ✔ The <nav> tag is being used for the navigation bar. @started(22-02-13 21:32) @done(22-02-13 22:48) @lasted(1h16m43s)
     ✔ Additional section has been added to the page, such as a skills section, and a working link to the new section has been added to the navigation bar using an ID to link to anchor tag. @started(22-02-13 21:32) @done(22-02-13 22:49) @lasted(1h17m14s)
